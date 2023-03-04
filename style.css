@@ -47,7 +47,7 @@ h5{
 }
 
 h6{
-    color: #cccccc;
+    color: #746e6e;
 }
 
 a{
@@ -83,6 +83,7 @@ button:hover{
     font-size: 20px;
     top: 0;
     left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 ul.navbar-nav {
     /* display: flex; */
@@ -284,7 +285,20 @@ ul.navbar-nav {
     color: #9c9b9b;
   }
 
+  .footer-3 h6{
+    color: #ccc;
+  }
+
+
+  .copyright-text p{
+    padding-top: 20px;
+    color: #ccc;
+  }
  
+  /* .footer-icon {
+    padding-left: 125px;
+  } */
+
   .footer-icon i{
     font-size: 30px;
     padding: 10px;
@@ -297,7 +311,12 @@ ul.navbar-nav {
 
   .payment-box{
     padding: 10px;
+    padding-left: 25px;
     cursor:pointer
+  }
+  .payment-box img{
+    width: 180px;
+    height: 35px;
   }
   .footer-icon i:hover{
    
