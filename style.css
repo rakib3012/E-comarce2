@@ -250,6 +250,56 @@ ul.navbar-nav {
   /* ...............new-section-end-here................   */
 
 
+  /*............ feature-section-start-here ..........*/
+
+  
+
+  .feature-text {
+     
+  }
+
+  .feature-text .h-row{
+    width: 50px;
+    height: 3px;
+    background-color: chocolate;
+    opacity: 1;
+    border: none;
+ }
+
+ /* .feature-img{
+  display: flex;
+  justify-content:  ;
+  margin: 10px 20px;
+ } */
+  .images{
+    padding: 10px 0;
+    cursor: pointer;
+  }
+
+  .images:hover{
+    opacity: .7;
+  }
+
+  .fe-icon{
+    color: coral;
+    padding-top: 10px;
+  }
+
+  .images .buy-btn {
+    background-color: coral;
+    transform: translateY(20);
+    opacity: 0;
+    transition: .3s ease;
+  }
+  .images:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  /*........... feature-section-end-here ..........*/
+
+
+
+/*................ footer-start-here ..........*/
   .footer{
     background-color: #3a3838;
   }
