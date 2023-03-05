@@ -395,3 +395,36 @@ ul.navbar-nav {
   .page-ul li a{
     color: #3a3838;
   }
+
+
+/* ............single-product-page-start-here ..............*/
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+}
+
+.img-text  select{
+  display: block;
+  padding: 5px 10px;
+}
+
+.img-text input{
+  width: 70px;
+  padding: 6px 10px;
+  font-size: 22px;
+}
+
+
+.img-text .buy-btn{
+  background-color: coral;
+  margin-left: 10px;
+}
+
+.img-text .buy-btn:hover{
+  background-color: chocolate;
+}
