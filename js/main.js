@@ -16,3 +16,22 @@
  smallImg[3].onclick= function(){
     mainImage.src = smallImg[3].src
  }
+
+
+
+
+ var MainImage = document.getElementById("mainImage");
+ var smImg = document.getElementsByClassName("sm-img");
+
+ smImg[0].onclick= function(){
+    MainImage.src = smImg[0].src
+ }
+ smImg[1].onclick= function(){
+    MainImage.src = smImg[1].src
+ }
+ smImg[2].onclick= function(){
+    MainImage.src = smImg[2].src
+ }
+ smImg[3].onclick= function(){
+    MainImage.src = smImg[3].src
+ }
