@@ -428,3 +428,31 @@ ul.navbar-nav {
 .img-text .buy-btn:hover{
   background-color: chocolate;
 }
+
+
+
+/* ............blog-section-start-here .................*/
+
+.blog-text .h-row{
+  width: 50px;
+  height: 3px;
+  background-color: chocolate;
+  opacity: 1;
+  border: none;
+  margin: 0;
+}
+
+
+ 
+#blog-container .blog .blog-img {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+ #blog-container .blog .blog-img img{
+  transition: .3s;
+}
+ #blog-container .blog .blog-img:hover img{
+  transform: scale(1.3) rotate(-10deg);
+   
+}
